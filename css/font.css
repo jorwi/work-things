@@ -1,0 +1,21 @@
+@font-face {
+  font-family: 'lota-regular';
+  font-style: normal;
+  font-weight: normal;
+  src: url('lota-regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'lota-semi-bold';
+  font-style: normal;
+  font-weight: normal;
+  src: url('lota-semi-bold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'lota-bold';
+  font-style: normal;
+  font-weight: normal;
+  src: url('lota-bold.woff') format('woff');
+}
+

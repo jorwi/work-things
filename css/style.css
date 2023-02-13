@@ -1,0 +1,38 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+a { color: #222; }
+a:hover { color: #be2625; }
+a, button, input, select { transition: 0.3s; }
+
+body { overflow: auto; font-family: "Open Sans"; font-weight: regular; font-size: 1.4em; font-weight: 400; color: #222; background-color: #f2f2f2; text-align: center; padding: 1.5%; }
+h1, h2, h3, h4, h5, h6 { font-family: "lota-semi-bold"; font-weight: 400 !important; }
+footer { background-color: #eee; position: absolute; left: 0; height: auto; }
+
+hr { width: 45%; margin: 0 auto; padding-bottom: 20px; }
+input[type="text"]:hover, input[type="text"]:hover { border: 1px solid #aaa !important; }
+input[type="text"]:focus, input[type="text"]:focus { border: 1px solid #aaa !important; }
+input[type="submit"] { border: 1px solid #e4003b !important; color: #f7f7f7 !important; background-color: #e4003b !important; margin-bottom: -10px !important; font-family: "Open Sans"; }
+input[type="submit"]:hover { background-color: #f01f4d !important; color: #fff !important; }
+label { display: none; }
+nav { font-family: "Open Sans"; }
+main { padding-top: 3%; }
+/*p { font-size: 15px; font-family: "Open Sans" }*/
+pre { cursor: context-menu; }
+span { font-size: 1.5rem; line-height: 1.6; letter-spacing: 0; margin-top: 0; margin-bottom: 2rem; font-weight: 300; font-family: "Open Sans"; }
+textarea:focus { border: 1px solid #aaa !important; }
+
+.error, .success { padding: 0 0 5px 0; margin-bottom: 12.5px; }
+.error { border-bottom: 3px solid #b81324; color: #be2625; }
+.success { border-bottom: 3px solid #458b00; color: #458b00; }
+.intro { font-family: "Open Sans Light"; margin-bottom: 15px; }
+.strong { font-weight: bold; }
+.error p, .success p { margin-bottom: 0; }
+
+#extra-links { margin-top: -25px; margin-bottom: 20px; font-size: smaller; }
+
+@media (min-width: 360px) { input[type="text"] { width: 75%; } img { width: 60%; padding-bottom: 15px; padding-top: 15px; } main { padding-top: 0; } }
+@media (min-width: 400px) { input[type="text"] { width: 85%; } img { width: 55%; padding-bottom: 20px; } }
+@media (min-width: 550px) { img { width: 35%; padding-bottom: 10px; } main { padding-top: 0; } }
+@media (min-width: 760px) { input[type="text"] { width: 55%; } img { width: 30%; padding-bottom: 20px; } }
+@media (min-width: 1000px) { input[type="text"] { width: 55%; } img { width: 25%; padding-bottom: 20px; } }
+@media (min-width: 1200px) { input[type="text"] { width: 35%; } img { width: 20%; padding-bottom: 20px; } #visible { display: inline; } span { padding-left: 5px; } }
