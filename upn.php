@@ -3,7 +3,7 @@
 
   <div class="row">
     <div class="eight columns">
-      <p>Simply enter the target mailbox and all those needing access to it (comma separated) to get the PowerShell commands to change a leavers' UPN.</p>
+      <p>Simply enter the target mailbox (comma separated) to get the PowerShell commands to change a leavers' UPN.</p>
 
       <form action="#" name="commands" method="post">
         <textarea class="u-full-width" placeholder="user@org.org.uk,user2@org.org.uk,user3@org.org.uk etc." name="mailbox" required="required"><?=isset($_POST['mailbox']) ? trim(htmlspecialchars($_POST['mailbox'])) : ''; ?></textarea>
