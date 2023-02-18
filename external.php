@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <title>External email warning</title>
-	<style>body {width:50%;}.html {font:13px "courier new";padding-bottom:15px;}h3{font:15px 'open sans semibold',tahoma,arial,geneva,sans-serif;clear:both;}</style>
+	<style>body{width:50%;}.html{font:13px "courier new";padding-bottom:15px;}h3{font:15px 'open sans semibold',tahoma,arial,geneva,sans-serif;clear:both;}</style>
   </head>
 
   <body>
