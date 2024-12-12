@@ -10,7 +10,7 @@
   switch (basename($_SERVER['PHP_SELF'])):
      case 'bookmarks.php';
       $username = "bookmarks";
-      $password = "";
+      $password = "password";
       $db = "bookmarks";
       $title = "Managed bookmarks";
      break;

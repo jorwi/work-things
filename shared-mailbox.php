@@ -13,7 +13,7 @@
       </form>
     </div>
   </div>
-  
+
 <?php
 if (isset($_POST['show-commands'])) {
   $mailboxarray = trim(str_replace(', ' , ',', htmlspecialchars($_POST['mailbox'])));
